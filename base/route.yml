@@ -1,0 +1,17 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  name: swampup-demo
+  labels:
+    app: swampup-demo
+spec:
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Allow
+  to:
+    kind: Service
+    name: swampup23-svc
+    weight: 100
+  port:
+    targetPort: 8080
+  wildcardPolicy: None

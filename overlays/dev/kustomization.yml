@@ -5,4 +5,4 @@ resources:
 images:
   - name: swampup-backend
     newName: nvsconsulting.jfrog.io/cicd-demo-container-images/swampup23/jfrog-demo
-    newTag: nvsconsulting.jfrog.io/cicd-demo-container-images/swampup23/jfrog-demo:0.0.1-SNAPSHOT-20230911-012451
+    newTag: 0.0.1-SNAPSHOT-20230911-012451

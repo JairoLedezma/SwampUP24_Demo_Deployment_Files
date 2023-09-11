@@ -10,7 +10,7 @@ spec:
     insecureEdgeTerminationPolicy: Allow
   to:
     kind: Service
-    name: swampup23-svc
+    name: swampup-svc
     weight: 100
   port:
     targetPort: 8080

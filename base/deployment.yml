@@ -16,4 +16,11 @@ spec:
         image: swampup-backend
         ports:
         - containerPort: 8080
-
+        livenessProbe:
+          httpGet:
+            port: 8080
+            path: /
+        readinessProbe:
+          httpGet:
+            port: 8080
+            path: /

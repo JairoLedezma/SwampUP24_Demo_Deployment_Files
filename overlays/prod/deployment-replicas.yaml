@@ -3,8 +3,4 @@ kind: Deployment
 metadata:
   name: swampup23-backend
 spec:
-  template:
-    spec:
-      containers:
-        - name: backend
-          replicas: 3
+  replicas: 4

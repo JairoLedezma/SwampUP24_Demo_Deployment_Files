@@ -2,12 +2,9 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - ../../base
-
-  
 images:
   - name: swampup-backend
     newName: nvsconsulting.jfrog.io/cicd-demo-container-images/swampup23/jfrog-demo
-    newTag: 0.0.1-SNAPSHOT-20230912-232819
-
+    newTag: 1.0.0-SNAPSHOT-20230913-073103
 patchesStrategicMerge:
   - deployment-replicas.yaml

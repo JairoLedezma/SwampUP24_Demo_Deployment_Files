@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: swampup23-backend
 spec:
+  selector:
+    matchLabels:
+      app: backend
   template:
     spec:
       containers:

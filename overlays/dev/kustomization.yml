@@ -5,6 +5,6 @@ resources:
 images:
   - name: swampup-backend
     newName: nvsconsulting.jfrog.io/cicd-demo-container-images/swampup23/jfrog-demo
-    newTag: 1.0.0-SNAPSHOT-20230913-202622
+    newTag: 1.0.0-SNAPSHOT-20230913-203105
 patchesStrategicMerge:
   - deployment-replicas.yaml

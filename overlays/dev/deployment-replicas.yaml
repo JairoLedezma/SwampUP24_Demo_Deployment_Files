@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: swampup23-backend
+  name: swampup24-backend
 spec:
   replicas: 1

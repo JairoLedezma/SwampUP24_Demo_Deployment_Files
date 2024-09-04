@@ -6,7 +6,7 @@ resources:
 
 images:
   - name: swampup-backend
-    newName: nvsconsulting.jfrog.io/cicd-demo-container-images/swampup23/jfrog-demo
+    newName: nvsswampup.jfrog.io/artifactory/swamp-up-24-docker/jfrog-demo
     newTag: 0.0.1-SNAPSHOT-20230912-232819
 
 

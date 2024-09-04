@@ -5,6 +5,6 @@ resources:
 images:
   - name: swampup-backend
     newName: nvsswampup.jfrog.io/artifactory/swamp-up-24-docker/jfrog-demo
-    newTag: 1.0.0-SNAPSHOT-20230913-223728
+    newTag: 0.0.1-SNAPSHOT-20240904-201445
 patchesStrategicMerge:
   - deployment-replicas.yaml
